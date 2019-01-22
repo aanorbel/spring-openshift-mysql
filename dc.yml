@@ -37,7 +37,7 @@ items:
           containers:
             - name: simple-mysql
               image: docker.io/aanorbel/spring-openshift-mysql
-              imagePullPolicy: Alway
+              imagePullPolicy: Always
               env:
                 - name: SPRING_DATASOURCE_URL
                   value: jdbc:mysql://172.30.68.129:3306/simplemysql
